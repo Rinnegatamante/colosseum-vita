@@ -23,6 +23,7 @@ When the game misses a shader in cache, the related model won't show up for a fe
 ## How to Install
 
 - Install `libshacccg.suprx`, if you don't have it already, by following [this guide](https://samilops2.gitbook.io/vita-troubleshooting-guide/shader-compiler/extract-libshacccg.suprx).
+- Install [CapUnlocker](https://github.com/GrapheneCt/CapUnlocker/tree/master).
 - Install the vpk from the Release tab.
 - Extract the `setup.zip` from the Release tab in a folder in your PC.
 - Place the iso file of `Pokemon Colosseum NTSC-U (GC6E01, Revision 0)` for Gamecube named as `colosseum.iso` in the same folder where you extracted the zip.
