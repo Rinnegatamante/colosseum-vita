@@ -15,6 +15,7 @@ When the game misses a shader in cache, the related model won't show up for a fe
 - MSAA 4x antialiasing.
 - Ability to fast scroll with L/R through pokemons in the Summary screen.
 - Widescreen support (Defaults to On).
+- Support for English, Italian, French, Spanish and German languages.
 
 ## Special Controls
 
@@ -35,6 +36,23 @@ When the game misses a shader in cache, the related model won't show up for a fe
    ux0:data/colosseum/colosseum-data.psarc
    ux0:data/colosseum/movies.psarc
    ```
+
+## How to set up PAL languages
+
+- Place the iso file of `Pokemon Colosseum PAL (GC6P01, Revision 0)` for Gamecube named as `pal.iso` in the same folder where you extracted `setup.zip`.
+- Open a command line in the same folder where you extracted the zip and run: `setup_languages.bat "colosseum.iso" "pal.iso"`
+- Copy `output/data/colosseum/languages.psarc` in `ux0:data/colosseum`.
+
+## Changelog
+
+### v.1.1
+
+- Added experimental PAL languages (Italian, French, German, Spanish) support.
+- Fixed a bug causing black screens after entering certain rooms in the game.
+- Added several more new shaders in the built-in cache: this will make pop-in issues more rare.
+- Fixed a memleak that caused, after a certain amount of time, performance losses first and crashes further in.
+- Fixed a few rooms causing crashes when attempting to enter them.
+- Added a check on boot for CapUnlocker installation to prevent game booting without it.
 
 ## Credits
 
